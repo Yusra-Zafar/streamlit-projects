@@ -1,11 +1,6 @@
 import openai
 import streamlit as st
 import pyperclip
-# from docx import Document
-
-
-# openai.api_key = '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'
-
 
 def doc_generator(prompt):
     messages = [
