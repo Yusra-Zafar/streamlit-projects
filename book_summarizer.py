@@ -1,8 +1,6 @@
 import openai
 import streamlit as st
 
-# openai.api_key = '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'
-
 def book_summarizer(prompt):
   messages = [
       {
