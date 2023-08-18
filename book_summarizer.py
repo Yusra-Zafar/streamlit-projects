@@ -38,23 +38,13 @@ def book_summarizer(prompt):
   return summary
 
 
-# CSS for background image
-
-def add_bg_from_url():
     st.markdown(
          f"""
          <h1 style= 'text-align: center'>Book Summarizer</h1>
-         <style>
-         .stApp {{             
-             background-image: url("https://png.pngtree.com/back_origin_pic/04/14/75/b4c36f5628854af5de1b9a66e3264987.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
+      
          """,
          unsafe_allow_html=True
      )
-add_bg_from_url() 
 
 
 # Function to display the API key input in the sidebar
