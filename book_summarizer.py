@@ -38,7 +38,7 @@ def book_summarizer(prompt):
   return summary
 
 
-    st.markdown(
+st.markdown(
          f"""
          <h1 style= 'text-align: center'>Book Summarizer</h1>
       
