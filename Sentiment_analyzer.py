@@ -24,25 +24,8 @@ def sentiment_analysis_using_chatgpt(prompt):
 
   sentiment = response['choices'][0]['message']['content']
   return sentiment
+
   
-
-
-# CSS for background image
-
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{             
-             background-image: url("https://www.jadegdesign.com.au/images/diamond_colours-crop-u47689.jpg?crc=527564836");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
 
 # Function to display the API key input in the sidebar
 def display_api_key_input():
@@ -54,7 +37,7 @@ add_bg_from_url()
 
 # Here comes the streamlit magic!!
 
-st.title(":violet[ChatGPT Sentiment Analyzer]")
+st.title("ChatGPT Sentiment Analyzer")
 
 # Display API key input in the sidebar
 api_key = display_api_key_input()
