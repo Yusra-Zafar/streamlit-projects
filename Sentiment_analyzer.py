@@ -46,7 +46,7 @@ api_key = display_api_key_input()
 model = 'gpt-3.5-turbo'
 text = st.text_input('Enter text', value= 'I love reading')
 
-if st.button(':violet[Submit]'):
+if st.button('Submit'):
     with st.spinner('OpenAI is processing your text'):
         sentiment = sentiment_analysis_using_chatgpt(text)
     
