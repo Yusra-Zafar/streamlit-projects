@@ -33,7 +33,6 @@ def display_api_key_input():
     api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password", placeholder='Your key here')
     return api_key
 
-add_bg_from_url() 
 
 # Here comes the streamlit magic!!
 
